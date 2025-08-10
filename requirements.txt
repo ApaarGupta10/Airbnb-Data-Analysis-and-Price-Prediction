@@ -1,0 +1,8 @@
+streamlit
+joblib
+pandas
+numpy
+lightgbm
+scikit-learn
+folium
+streamlit_folium
