@@ -1,4 +1,5 @@
 🏠 Airbnb Price Prediction – Streamlit + LightGBM
+
 📌 Overview
 
 This project predicts the nightly rental price of Airbnb listings across major European cities using Machine Learning (LightGBM).
