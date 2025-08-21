@@ -96,5 +96,4 @@ Enhance prediction with seasonality & holiday demand.
 Build recommendation system for hosts (e.g., "optimal price suggestions").
 
 🙌 Contributors
-
 Apaar Gupta and Shubham Gavhane
