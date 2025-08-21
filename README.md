@@ -1,11 +1,11 @@
-🏠 Airbnb Price Prediction – Streamlit + LightGBM
+# 🏠 Airbnb Price Prediction – Streamlit + LightGBM
 
-📌 Overview
+## 📌 Overview
 
 This project predicts the nightly rental price of Airbnb listings across major European cities using Machine Learning (LightGBM).
 It combines exploratory data analysis (EDA), feature engineering, and an interactive Streamlit web app with maps and visualizations.
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Airbnb pricing is inconsistent due to location, property type, demand, and seasonal factors.
 
@@ -13,7 +13,7 @@ Guests may overpay or underpay due to lack of transparent pricing.
 
 Hosts face difficulties in setting competitive but profitable prices.
 
-✅ Solution
+## ✅ Solution
 
 Built a LightGBM regression model trained on preprocessed Airbnb datasets.
 
@@ -29,7 +29,7 @@ Dynamic map visualization (Folium)
 
 Predicted price with weekly & monthly estimates
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python: pandas, numpy, scikit-learn, LightGBM
 
@@ -39,7 +39,7 @@ Deployment: Streamlit, joblib
 
 Database (optional): Google BigQuery (for preprocessed data storage)
 
-🚀 Features
+## 🚀 Features
 
 Predicts nightly, weekly, and monthly price.
 
@@ -51,34 +51,42 @@ Shows encoded values (city, room type, neighbourhood frequency).
 
 Error handling with detailed debug info.
 
-📂 Project Structure
-├── app.py                         # Streamlit app
-├── AirBNB_Data_Analysis_...ipynb  # Jupyter notebook with EDA + model training
-├── lightgbm_airbnb_model.pkl      # Trained ML model
-├── feature_scaler.pkl             # Scaler for preprocessing
-├── neigh_freq_map.pkl             # Neighbourhood frequency encoding
-├── Listings.csv                   # Raw dataset
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+## 📂 Project Structure
 
-⚡ Installation & Usage
+#### ├── app.py                         # Streamlit app
 
-Clone the repo:
+#### ├── AirBNB_Data_Analysis_...ipynb  # Jupyter notebook with EDA + model training
+
+#### ├── lightgbm_airbnb_model.pkl      # Trained ML model
+
+#### ├── feature_scaler.pkl             # Scaler for preprocessing
+
+#### ├── neigh_freq_map.pkl             # Neighbourhood frequency encoding
+
+#### ├── Listings.csv                   # Raw dataset
+
+#### ├── requirements.txt               # Python dependencies
+
+#### └── README.md                      # Project documentation
+
+## ⚡ Installation & Usage
+
+### Clone the repo:
 
 git clone https://github.com/your-username/airbnb-price-prediction.git
 cd airbnb-price-prediction
 
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run the app:
+### Run the app:
 
 streamlit run app.py
 
-📊 Results & Insights
+## 📊 Results & Insights
 
 Achieved strong predictive performance using LightGBM.
 
@@ -86,7 +94,7 @@ Neighbourhood frequency encoding improved feature representation.
 
 Streamlit app makes predictions transparent and user-friendly.
 
-🌍 Future Scope
+## 🌍 Future Scope
 
 Integrate real-time Airbnb API data.
 
@@ -96,6 +104,6 @@ Enhance prediction with seasonality & holiday demand.
 
 Build recommendation system for hosts (e.g., "optimal price suggestions").
 
-🙌 Contributors
+## 🙌 Contributors
 Apaar Gupta and Shubham Gavhane
 Link: https://airbnb-data-analysis-and-price-prediction-6abyz3mtthshxt5uvkvv.streamlit.app/
