@@ -105,5 +105,5 @@ Enhance prediction with seasonality & holiday demand.
 Build recommendation system for hosts (e.g., "optimal price suggestions").
 
 ## 🙌 Contributors
-Apaar Gupta and Shubham Gavhane
+Apaar Gupta
 Link: https://airbnb-data-analysis-and-price-prediction-6abyz3mtthshxt5uvkvv.streamlit.app/
